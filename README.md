@@ -2,6 +2,8 @@
 
 NesQ is an innovative qubit router utilizing the Nested Monte Carlo Search (NMCS) technique to optimize qubit routing, thereby improving the execution of quantum circuits. This tool is especially crucial in the NISQ (Noisy Intermediate-Scale Quantum) era, where limited qubit connectivity on quantum processing units poses significant challenges to efficient quantum task scheduling.
 
+Current submission link: https://drive.google.com/file/d/1IbsQ_zFnPByd5-KSsRr3L9CRraxdQpHR/view?usp=drive_link
+
 ## Abstract
 
 In the current NISQ era, it has become difficult to schedule increasingly complex quantum tasks with limited connectivity of the QPU (Quantum Processing Unit). This challenge arises from the requirement for qubits sharing a task to be physically connected in the hardware topology. Connectivity constraints necessitate the use of SWAP gates or reversing existing CNOT gates, which adds computational costs and introduces errors. Efficient routing agents are thus vital to optimizing qubit routing. We present NesQ, a Nested Monte Carlo Search (NMCS) based qubit router designed to efficiently explore the state space and optimize this routing problem. Our experiments demonstrate that NesQ outperforms existing routing algorithms, providing superior performance with reduced runtime.
